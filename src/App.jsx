@@ -1,10 +1,24 @@
-import React from 'react'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Header from './components/Header'
+import Footer from './components/Footer'
+
+import Home from './pages/Home'
 
 const App = () => {
   return (
-    <div>
-      <h1 className='text-red-500'>Welcome to My React App</h1>
-    </div>
+  <Router>
+    <Header />
+    <Routes>
+      <Route path='/' element = {<Home />} /> 
+      {/* <Route path='/about' element = {} />
+      <Route path='/gallery' element = {} />
+      <Route path='/contact' element = {} />
+      <Route path='/menu' element = {} />
+      <Route path='/bookings' element = {} />
+      <Route path='/blogs' element = {} /> */}
+    </Routes>
+    <Footer />
+  </Router>
   )
 }
 
