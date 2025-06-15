@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-green-100 text-gray-800 py-8 mt-16 border-t border-green-300">
+    <footer className="bg-green-100 text-gray-800 py-8 border-t border-green-300">
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6 text-center md:text-left">
         
         {/* Logo and Tagline */}
