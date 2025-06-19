@@ -12,9 +12,11 @@ export default function Header() {
     <header className="bg-white shadow-md fixed w-full top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
+        <NavLink to="/" >
         <div className="text-2xl font-bold text-green-700">
           Nirmal Farm
         </div>
+        </NavLink>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-6 text-gray-700 font-medium">

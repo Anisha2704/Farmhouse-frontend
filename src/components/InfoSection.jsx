@@ -195,8 +195,8 @@ export default function FarmInfoSection() {
             Minimum 10 adults required<br />
             Bungalow capacity: 20–25 adults<br /><br />
             <strong>Contact:</strong> <br />
-            +91 9870204394<br />
-            +91 9870204424
+            <p><a href="tel:9870204394">+91 9870204394</a></p>
+          <p><a href="tel:9870204424">+91 9870204424</a></p>
           </p>
         </motion.div>
       </div>

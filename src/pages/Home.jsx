@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import { Carousel } from "react-responsive-carousel";
 
 import hero1 from "../assets/hero1.jpg";
-import hero2 from "../assets/hero2.jfif";
+import hero2 from "../assets/hero2.jpg";
 import hero3 from "../assets/hero3.jfif";
 import bg from "../assets/bg.jpg";
 import home1 from "../assets/home1.jfif";
@@ -12,6 +12,7 @@ import home3 from "../assets/home3.jpg";
 
 import FarmInfoSection from "../components/InfoSection";
 import AboutPromoSection from "../components/AboutSection";
+import { NavLink } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -59,15 +60,19 @@ export default function Home() {
             </p>
 
             <div className="hero-buttons">
+              <NavLink to="/bookings" >
               <motion.button
                 whileHover={{ scale: 1.1 }}
                 className="btn-primary"
               >
                 Book Now
               </motion.button>
+              </NavLink>
+              <NavLink to="/gallery" >
               <button className="btn-secondary">
                 Explore More
               </button>
+              </NavLink>
             </div>
           </motion.div>
 
