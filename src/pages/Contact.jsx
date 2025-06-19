@@ -21,8 +21,10 @@ const ContactPage = () => {
             <p className="flex items-center gap-2">📍 <span>64/1, Madhuban Society Chon Gaon,
                                                         <br /> Barvi Dam Road,Badlapur (W), 
                                                         <br />Thane 421503.</span></p>
-            <p className="flex items-center gap-2">📞 <span>98765 43210 
-                                                        <br />98702 04424</span></p>
+            <p className="flex items-center gap-2">📞 <span><a href="tel:9870204394"> 98702 04394</a>
+                                                        <br /><a href="tel:9870204424"> 98702 04424</a></span></p>
+                                                        <p></p>
+          <p></p>
           </div>
 
         </div>

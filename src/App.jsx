@@ -1,6 +1,10 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Gallery from './pages/Gallery'
+import Booking from './pages/Booking'
+import Menu from './pages/Menu';
+
 
 import Home from './pages/Home'
 import ContactPage from './pages/Contact'
@@ -16,10 +20,9 @@ const App = () => {
       <Route path='/about' element = {<About />} />
       <Route path='/blogs' element = {<Blogs />} />
       <Route path='/contact' element = {<ContactPage/>} />
-      {/* <Route path='/gallery' element = {} />
-      <Route path='/contact' element = {} />
-      <Route path='/menu' element = {} />
-      <Route path='/bookings' element = {} /> */}
+      <Route path='/gallery' element = {<Gallery />} />
+      <Route path='/bookings' element = {<Booking />} />
+       <Route path='/menu' element = {<Menu />} />
     </Routes>
     <Footer />
   </Router>
